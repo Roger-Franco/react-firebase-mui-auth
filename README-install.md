@@ -9,3 +9,7 @@ no firebase cria um novo app e escolha o app para web. depois cola a configuraç
 
 npm install @mui/material @emotion/react @emotion/styled => resolver questão de compilação;
 Alterei o db.js => importação do firebase para se adequar;
+
+https://www.youtube.com/watch?v=dJA3zqokc_c&list=PL9JyTFRdAsVrfF6OHJe97d4eRYeqWfqtz&ab_channel=HeartOfProgramming
+
+18:25 minutos
