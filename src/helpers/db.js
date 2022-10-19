@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {

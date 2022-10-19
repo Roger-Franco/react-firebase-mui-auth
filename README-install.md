@@ -6,3 +6,6 @@ npm install firebase @material-ui/core @material-ui/icons react-material-ui-form
 
 no firebase cria um novo app e escolha o app para web. depois cola a configuração em helpers/db.js
 
+
+npm install @mui/material @emotion/react @emotion/styled => resolver questão de compilação;
+Alterei o db.js => importação do firebase para se adequar;
