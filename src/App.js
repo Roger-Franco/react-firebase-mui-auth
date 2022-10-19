@@ -6,9 +6,13 @@ import NavBar from './layouts/NavBar';
 
 function App() {
   const [user, setUser] = useState('')
+  const [toggleForm, setToggleForm] = useState(true)
+  const formMode = () => {
+    setToggleForm(!toggleForm)
+  }
   return (
     <>
-      <SignUp />
+      {toggleForm ? (<Login toggle={() => formMode()} />) : (<SignUp toggle={() => formMode()} />)}
     </>
   );
 }
